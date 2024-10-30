@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+    .container-storelocator {
+        max-width: 1310px !important;
+        width: 1310px !important;
+    }
+}
+
+.container-storelocator {
+    width: 100% !important;
+}
+
+.liw-bootstrap .location-gallery {
+    text-align: center;
+}
+
+.liw-bootstrap .imageGalleryWrapper {
+    width: 100% !important;
+    height: 150px !important;
+    background-size: cover !important;
+    background-position: 50% !important;
+    margin-bottom: 10px !important;
+}
+
+.liw-bootstrap #resultsList {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 40px;
+    margin: 0;
+    box-shadow: 3px 5px 4px #ddd;
+}
+
+.liw-bootstrap #resultsList .list-group-item.list-group-item-action:hover {
+    cursor: pointer;
+}
